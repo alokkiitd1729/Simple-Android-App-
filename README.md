@@ -8,6 +8,7 @@
 # Simple-Android-App
 Android App for Exchanging documents among users 
 
-UI is for this app just simple since it's not on Google Play_Store (Still under improvement)
+UI is for this app just simple since it's not on Google Play_Store ("Still under improvement").
+
 Platform used for documents exchange- 
   # Firebase Google Cloud Messaging
