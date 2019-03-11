@@ -5,6 +5,8 @@
  *  completion Date 9 March 2019,
  *    Author@_Alok_Kumar
  *    Indian Institute of Technology(IIT) Delhi
+ *   For better understanding first visit the User Interface for this app 
+ *   for knowing the ids of various Views and Buttons
  *   Under improvement
  *   I have tried my best to maximise the comments for the code for better understanding
  */
