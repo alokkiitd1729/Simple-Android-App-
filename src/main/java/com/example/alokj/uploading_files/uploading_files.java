@@ -1,3 +1,16 @@
+
+
+
+/**
+ *  completion Date 9 March 2019,
+ *    Author@_Alok_Kumar
+ *    Indian Institute of Technology(IIT) Delhi
+ *   Under improvement
+ *   I have tried my best to maximise the comments for the code for better understanding
+ */
+
+
+
 package com.example.alokj.uploading_files;
 
 import android.Manifest;
@@ -47,7 +60,7 @@ public class uploading_files extends AppCompatActivity {
          * Now we need to do- what should happen when we click "SelectFile" Button.
          * we should check permission to read the SDCard/Internal Storage
          */
-        //##################### FOR SELECT BUTTON   #########################
+       
         selectfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +90,7 @@ public class uploading_files extends AppCompatActivity {
             }
         });
 
-        //############### FOR UPLOAD BUTTON ##############################
+        
         upload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -171,7 +184,7 @@ public class uploading_files extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(uploading_files.this,"yar permission to de",Toast.LENGTH_LONG).show();
+            Toast.makeText(uploading_files.this,"Please Provide access",Toast.LENGTH_LONG).show();
             //ActivityCompat.requestPermissions(uploading_files.this,permissions,requestCode);
         }
     }
@@ -209,4 +222,3 @@ public class uploading_files extends AppCompatActivity {
     }
 }
 
-// request.auth != null
